@@ -1,0 +1,251 @@
+movie,year,genre,imdb,douban,region
+The Shawshank Redemption,1994,"Crime, Drama",9.3,9.6,USA
+The Godfather,1972,"Crime, Drama",9.2,9.2,USA
+The Godfather: Part II,1974,"Crime, Drama",9,9.1,USA
+The Dark Knight,2008,"Action, Crime, Drama",9,9,USA
+12 Angry Men,1957,"Crime, Drama",8.9,9.4,USA
+Schindler's List,1993,"Biography, Drama, History",8.9,9.4,USA
+Pulp Fiction,1994,"Crime, Drama",8.9,8.8,USA
+The Lord of the Rings: The Return of the King,2003,"Adventure, Drama, Fantasy",8.9,9.1,USA
+"Il buono, il brutto, il cattivo",1966,Western,8.9,9.1,Italy
+Fight Club,1999,Drama,8.8,9,USA
+The Lord of the Rings: The Fellowship of the Ring,2001,"Adventure, Drama, Fantasy",8.8,8.9,New Zealand
+Forrest Gump,1994,"Drama, Romance",8.8,9.4,USA
+Star Wars: Episode V - The Empire Strikes Back,1980,"Action, Adventure, Fantasy",8.8,8.2,USA
+Inception,2010,"Action, Adventure, Sci-Fi",8.8,9.3,USA
+The Lord of the Rings: The Two Towers,2002,"Adventure, Drama, Fantasy",8.7,8.9,USA
+One Flew Over the Cuckoo's Nest,1975,Drama,8.7,9,USA
+Goodfellas,1990,"Biography, Crime, Drama",8.7,8.3,USA
+The Matrix,1999,"Action, Sci-Fi",8.7,8.8,USA
+Shichinin no samurai,1954,"Adventure, Drama",8.7,9.2,Japan
+Star Wars,1977,"Action, Adventure, Fantasy",8.7,8.3,USA
+Cidade de Deus,2002,"Crime, Drama",8.6,8.9,Brazil
+Se7en,1995,"Crime, Drama, Mystery",8.6,8.7,USA
+The Silence of the Lambs,1991,"Crime, Drama, Thriller",8.6,8.7,USA
+It's a Wonderful Life,1946,"Drama, Family, Fantasy",8.6,9.2,USA
+La vita è bella,1997,"Comedy, Drama, War",8.6,9.5,Italy
+The Usual Suspects,1995,"Crime, Drama, Mystery",8.6,8.6,USA
+Léon,1994,"Crime, Drama, Thriller",8.6,9.4,France
+Saving Private Ryan,1998,"Drama, War",8.6,8.9,USA
+Sen to Chihiro no kamikakushi,2001,"Animation, Adventure, Family",8.6,9.2,Japan
+Coco,2017,"Animation, Adventure, Comedy",8.8,9.1,USA
+American History X,1998,"Crime, Drama",8.5,8.5,USA
+Interstellar,2014,"Adventure, Drama, Sci-Fi",8.6,9.1,USA
+Once Upon a Time in the West,1968,Western,8.5,8.5,Italy
+The Green Mile,1999,"Crime, Drama, Fantasy",8.5,8.7,USA
+Psycho,1960,"Horror, Mystery, Thriller",8.5,8.9,USA
+Casablanca,1942,"Drama, Romance, War",8.5,8.6,USA
+City Lights,1931,"Comedy, Drama, Romance",8.6,9.2,USA
+The Intouchables,2011,"Biography, Comedy, Drama",8.6,9.1,France
+Modern Times,1936,"Comedy, Drama, Family",8.5,9.2,USA
+The Pianist,2002,"Biography, Drama, Music",8.5,9,France
+Raiders of the Lost Ark,1981,"Action, Adventure",8.5,7.8,USA
+The Departed,2006,"Crime, Drama, Thriller",8.5,7.2,USA
+Rear Window,1954,"Mystery, Thriller",8.5,8.4,USA
+Terminator 2: Judgment Day,1991,"Action, Sci-Fi, Thriller",8.5,8.5,USA
+Back to the Future,1985,"Adventure, Comedy, Sci-Fi",8.5,8.5,USA
+Whiplash,2014,"Drama, Music",8.5,8.6,USA
+Gladiator,2000,"Action, Adventure, Drama",8.5,8.4,USA
+The Lion King,1994,"Animation, Adventure, Drama",8.5,8.9,USA
+The Prestige,2006,"Drama, Mystery, Sci-Fi",8.5,8.8,USA
+Memento,2000,"Mystery, Thriller",8.5,8.5,USA
+Apocalypse Now,1979,"Drama, War",8.5,8.4,USA
+Alien,1979,"Horror, Sci-Fi",8.5,7.9,UK
+The Great Dictator,1940,"Comedy, Drama, War",8.5,8.9,USA
+Sunset Blvd.,1950,"Drama, Film-Noir",8.5,8.7,USA
+Nuovo Cinema Paradiso,1988,Drama,8.5,9.1,Italy
+Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,1964,"Comedy, War",8.5,8.7,USA
+The Lives of Others,2006,"Drama, Thriller",8.5,9.1,Germany
+Hotaru no haka,1988,"Animation, Drama, War",8.5,8.7,Japan
+Paths of Glory,1957,"Drama, War",8.4,8.9,USA
+Django Unchained,2012,"Drama, Western",8.4,8.5,USA
+The Shining,1980,"Drama, Horror",8.4,8,UK
+WALL·E,2008,"Animation, Adventure, Family",8.4,9.3,USA
+American Beauty,1999,Drama,8.4,8.4,USA
+Mononoke-hime,1997,"Animation, Adventure, Fantasy",8.4,8.8,Japan
+The Dark Knight Rises,2012,"Action, Thriller",8.4,8.5,UK
+Oldeuboi,2003,"Action, Mystery, Thriller",8.4,8.2,South Korea
+Witness for the Prosecution,1957,"Crime, Drama, Mystery",8.4,9.6,USA
+Aliens,1986,"Action, Adventure, Sci-Fi",8.4,7.9,USA
+Once Upon a Time in America,1984,"Crime, Drama",8.4,9.1,Italy
+Das Boot,1981,"Adventure, Drama, Thriller",8.4,9,West Germany
+Dangal,2016,"Action, Biography, Drama",8.6,9.1,India
+Citizen Kane,1941,"Drama, Mystery",8.4,8.5,USA
+Vertigo,1958,"Mystery, Romance, Thriller",8.4,8.5,USA
+North by Northwest,1959,"Action, Adventure, Mystery",8.4,8.1,USA
+Braveheart,1995,"Biography, Drama, History",8.4,8.8,USA
+Star Wars: Episode VI - Return of the Jedi,1983,"Action, Adventure, Fantasy",8.4,8.3,USA
+Reservoir Dogs,1992,"Crime, Drama, Thriller",8.3,8.3,USA
+M,1931,"Crime, Drama, Mystery",8.4,8.3,Germany
+Blade Runner 2049,2017,"Drama, Mystery, Sci-Fi",8.4,8.4,USA
+Kimi no na wa.,2016,"Animation, Drama, Fantasy",8.5,8.5,Japan
+Requiem for a Dream,2000,Drama,8.3,8.7,USA
+Taare Zameen Par,2007,"Drama, Family",8.5,8.8,India
+Amélie,2001,"Comedy, Romance",8.3,8.7,France
+A Clockwork Orange,1971,"Crime, Drama, Sci-Fi",8.3,8.4,UK
+Lawrence of Arabia,1962,"Adventure, Biography, Drama",8.3,8.7,UK
+Amadeus,1984,"Biography, Drama, History",8.3,8.6,USA
+Double Indemnity,1944,"Crime, Drama, Film-Noir",8.3,8.5,USA
+Eternal Sunshine of the Spotless Mind,2004,"Drama, Romance, Sci-Fi",8.3,8.4,USA
+Taxi Driver,1976,"Crime, Drama",8.3,8.4,USA
+To Kill a Mockingbird,1962,"Crime, Drama",8.3,8.5,USA
+Full Metal Jacket,1987,"Drama, War",8.3,8.5,UK
+Singin' in the Rain,1952,"Comedy, Musical, Romance",8.3,8.9,USA
+2001: A Space Odyssey,1968,"Adventure, Sci-Fi",8.3,8.6,UK
+3 Idiots,2009,"Comedy, Drama",8.4,9.1,India
+Toy Story,1995,"Animation, Adventure, Comedy",8.3,8.2,USA
+The Sting,1973,"Comedy, Crime, Drama",8.3,8.7,USA
+Toy Story 3,2010,"Animation, Adventure, Comedy",8.3,8.8,USA
+Inglourious Basterds,2009,"Adventure, Drama, War",8.3,8.4,USA
+Ladri di biciclette,1948,Drama,8.3,8.9,Italy
+The Kid,1921,"Comedy, Drama, Family",8.3,9.1,USA
+Snatch,2000,"Comedy, Crime",8.3,8.5,UK
+Monty Python and the Holy Grail,1975,"Adventure, Comedy, Fantasy",8.3,7.9,UK
+Good Will Hunting,1997,Drama,8.3,8.8,USA
+Jagten,2012,Drama,8.3,9,Denmark
+Per qualche dollaro in più,1965,Western,8.3,8.7,Italy
+Scarface,1983,"Crime, Drama",8.3,8.2,USA
+L.A. Confidential,1997,"Crime, Drama, Mystery",8.3,8.6,USA
+The Apartment,1960,"Comedy, Drama, Romance",8.3,8.7,USA
+Metropolis,1927,"Drama, Sci-Fi",8.3,8.9,Germany
+Jodaeiye Nader az Simin,2011,"Drama, Mystery",8.4,8.7,Iran
+Rashômon,1950,"Crime, Drama, Mystery",8.3,8.7,Japan
+Indiana Jones and the Last Crusade,1989,"Action, Adventure, Fantasy",8.3,8.1,USA
+Yôjinbô,1961,"Action, Drama, Thriller",8.3,8.8,Japan
+All About Eve,1950,Drama,8.3,8.6,USA
+Up,2009,"Animation, Adventure, Comedy",8.3,8.9,USA
+Babam ve Oglum,2005,Drama,8.5,9,Turkey
+Batman Begins,2005,"Action, Adventure, Thriller",8.3,8.2,USA
+Some Like It Hot,1959,"Comedy, Romance",8.3,8.8,USA
+The Treasure of the Sierra Madre,1948,"Adventure, Drama, Western",8.3,8.6,USA
+Unforgiven,1992,"Drama, Western",8.2,8.4,USA
+Der Untergang,2004,"Biography, Drama, History",8.2,8.6,Germany
+Die Hard,1988,"Action, Thriller",8.2,8.1,USA
+Heat,1995,"Action, Crime, Drama",8.2,8.4,USA
+Raging Bull,1980,"Biography, Drama, Sport",8.2,8.3,USA
+Bacheha-Ye aseman,1997,"Drama, Family",8.4,9.2,Iran
+The Third Man,1949,"Film-Noir, Mystery, Thriller",8.2,8.3,UK
+The Great Escape,1963,"Adventure, Drama, History",8.2,8.4,USA
+Ikiru,1952,Drama,8.3,9,Japan
+Chinatown,1974,"Drama, Mystery, Thriller",8.2,8.3,USA
+Pan's Labyrinth,2006,"Drama, Fantasy, War",8.2,7.8,Spain
+Incendies,2010,"Drama, Mystery, War",8.2,8.6,Canada
+Tonari no Totoro,1988,"Animation, Family, Fantasy",8.2,9.1,Japan
+Ran,1985,"Action, Drama",8.2,8.8,Japan
+Judgment at Nuremberg,1961,"Drama, War",8.3,9,USA
+The Gold Rush,1925,"Adventure, Comedy, Drama",8.2,9,USA
+El secreto de sus ojos,2009,"Drama, Mystery, Romance",8.2,8.3,Argentina
+Hauru no ugoku shiro,2004,"Animation, Adventure, Family",8.2,8.9,Japan
+Inside Out,2015,"Animation, Adventure, Comedy",8.2,8.7,USA
+The Bridge on the River Kwai,1957,"Adventure, Drama, War",8.2,8.3,UK
+On the Waterfront,1954,"Crime, Drama, Thriller",8.2,7.9,USA
+Det sjunde inseglet,1957,"Drama, Fantasy",8.2,8.3,Sweden
+Room,2015,Drama,8.2,8.8,Ireland
+"Lock, Stock and Two Smoking Barrels",1998,"Comedy, Crime",8.2,9.1,UK
+Mr. Smith Goes to Washington,1939,"Comedy, Drama",8.2,8.7,USA
+A Beautiful Mind,2001,"Biography, Drama",8.2,8.9,USA
+Casino,1995,"Crime, Drama",8.2,8.2,France
+Blade Runner,1982,"Sci-Fi, Thriller",8.2,8.2,USA
+The Elephant Man,1980,"Biography, Drama",8.2,8.1,USA
+V for Vendetta,2005,"Action, Drama, Sci-Fi",8.2,8.8,USA
+The Wolf of Wall Street,2013,"Biography, Comedy, Crime",8.2,7.6,USA
+Smultronstället,1957,"Drama, Romance",8.2,8.7,Sweden
+The General,1926,"Action, Adventure, Comedy",8.2,9,USA
+Warrior,2011,"Drama, Sport",8.2,8.9,USA
+Dial M for Murder,1954,"Crime, Film-Noir, Thriller",8.2,8.6,USA
+Trainspotting,1996,Drama,8.2,8.5,UK
+Gran Torino,2008,Drama,8.2,8.6,Germany
+Gone with the Wind,1939,"Drama, History, Romance",8.2,9.2,USA
+The Deer Hunter,1978,"Drama, War",8.2,8.4,USA
+The Sixth Sense,1999,"Drama, Mystery, Thriller",8.1,8.8,USA
+Fargo,1996,"Crime, Drama, Thriller",8.1,7.9,USA
+No Country for Old Men,2007,"Crime, Drama, Thriller",8.1,8,USA
+Sunrise: A Song of Two Humans,1927,"Drama, Romance",8.2,8.8,USA
+The Thing,1982,"Horror, Mystery, Sci-Fi",8.2,7.8,USA
+Finding Nemo,2003,"Animation, Adventure, Comedy",8.1,8.2,USA
+The Big Lebowski,1998,"Comedy, Crime",8.2,7.6,USA
+Eskiya,1996,"Crime, Drama, Thriller",8.4,6.9,Turkey
+There Will Be Blood,2007,"Drama, History",8.1,8.1,USA
+Tôkyô monogatari,1953,Drama,8.2,9.2,Japan
+Andrei Rublev,1966,"Biography, Drama, History",8.3,8.9,Soviet Union
+Cool Hand Luke,1967,"Crime, Drama",8.2,8.1,USA
+Idi i smotri,1985,"Drama, War",8.2,8.4,Soviet Union
+Rebecca,1940,"Drama, Mystery, Romance",8.2,8.2,USA
+Kill Bill: Vol. 1,2003,"Action, Crime, Thriller",8.1,8.1,USA
+Hacksaw Ridge,2016,"Biography, Drama, History",8.2,8.7,Australia
+How to Train Your Dragon,2010,"Animation, Adventure, Comedy",8.1,8.7,USA
+Rang De Basanti,2006,"Comedy, Drama, History",8.3,8.6,India
+Dunkirk,2017,"Action, Drama, History",8.1,8.5,UK
+Mary and Max,2009,"Animation, Comedy, Drama",8.1,8.9,Australia
+Gone Girl,2014,"Crime, Drama, Mystery",8.1,8.7,USA
+Shutter Island,2010,"Mystery, Thriller",8.1,8.6,USA
+La passion de Jeanne d'Arc,1928,"Biography, Drama, History",8.2,8.7,France
+Into the Wild,2007,"Adventure, Biography, Drama",8.1,8.6,USA
+Life of Brian,1979,Comedy,8.1,8,UK
+It Happened One Night,1934,"Comedy, Romance",8.2,8.7,USA
+Relatos salvajes,2014,"Comedy, Drama, Thriller",8.1,8.7,Argentina
+La La Land,2016,"Comedy, Drama, Music",8.1,8.3,USA
+Platoon,1986,"Drama, War",8.1,8.1,UK
+Logan,2017,"Action, Drama, Sci-Fi",8.1,8.3,Canada
+Hotel Rwanda,2004,"Biography, Drama, History",8.1,8.8,UK
+Network,1976,Drama,8.1,8.4,USA
+In the Name of the Father,1993,"Biography, Drama",8.1,8.8,Ireland
+Le salaire de la peur,1953,"Adventure, Drama, Thriller",8.2,8.7,France
+Stand by Me,1986,"Adventure, Drama",8.1,8.9,USA
+Rush,2013,"Action, Biography, Drama",8.1,8.8,UK
+A Wednesday,2008,"Crime, Drama, Mystery",8.3,6.8,India
+The Grand Budapest Hotel,2014,"Adventure, Comedy, Drama",8.1,8.7,USA
+Ben-Hur,1959,"Adventure, Drama, History",8.1,8.6,USA
+Persona,1966,"Drama, Thriller",8.1,8.7,Sweden
+Jurassic Park,1993,"Adventure, Sci-Fi, Thriller",8.1,8,USA
+Les quatre cents coups,1959,"Crime, Drama",8.1,8.7,France
+Salinui chueok,2003,"Action, Crime, Drama",8.1,8.6,South Korea
+12 Years a Slave,2013,"Biography, Drama, History",8.1,7.9,USA
+Million Dollar Baby,2004,"Drama, Sport",8.1,8.5,USA
+Mad Max: Fury Road,2015,"Action, Adventure, Sci-Fi",8.1,8.5,Australia
+Spotlight,2015,"Crime, Drama, History",8.1,8.8,USA
+Stalker,1979,"Drama, Sci-Fi",8.1,8.7,Soviet Union
+The Truman Show,1998,"Comedy, Drama, Sci-Fi",8.1,9.1,USA
+Amores perros,2000,"Drama, Thriller",8.1,8.2,Mexico
+Butch Cassidy and the Sundance Kid,1969,"Biography, Crime, Drama",8.1,8.7,USA
+Thor: Ragnarok,2017,"Action, Adventure, Comedy",8.1,7.5,USA
+Hachi: A Dog's Tale,2009,"Drama, Family",8.1,9.2,UK
+Before Sunrise,1995,"Drama, Romance",8.1,8.7,USA
+Kaze no tani no Naushika,1984,"Animation, Adventure, Fantasy",8.1,8.8,Japan
+The Princess Bride,1987,"Adventure, Family, Fantasy",8.1,6.9,USA
+The Maltese Falcon,1941,"Film-Noir, Mystery",8.1,7.5,USA
+Prisoners,2013,"Crime, Drama, Mystery",8.1,8,USA
+Le notti di Cabiria,1957,Drama,8.2,9,Italy
+Harry Potter and the Deathly Hallows: Part 2,2011,"Adventure, Drama, Fantasy",8.1,8.6,USA
+Paper Moon,1973,"Comedy, Crime, Drama",8.2,8.7,USA
+Catch Me If You Can,2002,"Biography, Crime, Drama",8.1,8.7,USA
+Rocky,1976,"Drama, Sport",8.1,8.5,USA
+The Grapes of Wrath,1940,"Drama, History",8.1,8.4,USA
+Les diaboliques,1955,"Crime, Drama, Horror",8.1,8.5,France
+"Monsters, Inc.",2001,"Animation, Adventure, Comedy",8.1,8.6,USA
+Touch of Evil,1958,"Crime, Drama, Film-Noir",8.1,8.1,USA
+Gandhi,1982,"Biography, Drama, History",8.1,8.6,UK
+Donnie Darko,2001,"Drama, Sci-Fi, Thriller",8.1,7.3,USA
+Barry Lyndon,1975,"Adventure, Drama, History",8.1,8.7,UK
+The Terminator,1984,"Action, Sci-Fi",8,7.9,UK
+Annie Hall,1977,"Comedy, Romance",8.1,8.5,USA
+Groundhog Day,1993,"Comedy, Fantasy, Romance",8,8.5,USA
+The Bourne Ultimatum,2007,"Action, Mystery, Thriller",8.1,8.7,USA
+The Wizard of Oz,1939,"Adventure, Family, Fantasy",8.1,8.1,USA
+La haine,1995,"Crime, Drama",8.1,8.2,France
+8½,1963,Drama,8.1,8.4,Italy
+Jaws,1975,"Adventure, Drama, Thriller",8,7.7,USA
+Munna Bhai M.B.B.S.,2003,"Comedy, Drama, Romance",8.2,7.6,India
+The Best Years of Our Lives,1946,"Drama, Romance, War",8.1,8.2,USA
+Mou gaan dou,2002,"Crime, Drama, Mystery",8.1,9,Hong Kong
+Twelve Monkeys,1995,"Mystery, Sci-Fi, Thriller",8,8.1,USA
+Faa yeung nin wa,2000,"Drama, Romance",8.1,8.5,Hong Kong
+The Help,2011,Drama,8.1,8.8,USA
+Dead Poets Society,1989,"Comedy, Drama",8,8.9,USA
+"Paris, Texas",1984,Drama,8.1,8.6,West Germany
+Beauty and the Beast,1991,"Animation, Family, Fantasy",8,8.3,USA
+Ah-ga-ssi,2016,"Crime, Drama, Mystery",8.1,8.3,South Korea
+Dog Day Afternoon,1975,"Biography, Crime, Drama",8,8.6,USA
+PK,2014,"Comedy, Drama, Sci-Fi",8.2,8.3,India
+Tenkû no shiro Rapyuta,1986,"Animation, Adventure, Family",8.1,9,Japan
+Drishyam,2015,"Crime, Drama, Mystery",8.4,8.3,India
