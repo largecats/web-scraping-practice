@@ -159,7 +159,7 @@ for page in pages:
 
         # scrape the English movie name
         eng_name = imdbMoviePage_html.find('h1').text
-        eng_name = re.sub("\(\d{4}\)", "", eng_name)
+        eng_name = eng_name.rstrip()
         names.append(eng_name)
 
         print(eng_name, year, genre, imdb_rating, douban_rating)
