@@ -158,7 +158,7 @@ for page in pages:
         imdb_ratings.append(imdb_rating)
 
         # scrape the English movie name
-        eng_name = imdbMoviePage_html.find('h1', attrs={'itemprop':'name'}).text
+        eng_name = imdbMoviePage_html.find('h1').text
         eng_name = re.sub("\(\d{4}\)", "", eng_name)
         names.append(eng_name)
 
