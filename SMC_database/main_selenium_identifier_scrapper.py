@@ -12,7 +12,7 @@
 # Website to search from
 url = "https://prs.moh.gov.sg/prs/internet/profSearch/main.action?hpe=SMC"
 
-outputFileName = "E:\\Activities\\Professional\\2018 summer Abbott\\documents\\UnwieldyWellgroomedMedian\\SG_doctor_identifiers.csv"
+outputFileName = "SG_doctor_identifiers.csv"
 
 # Set a pause time between searches (e.g., between 20 to 30s) to avoid bombarding the website with requests; the longer the pausing time, the more stable the progress. If the program encounters an "exist status -1" error, kindly increase the pause time. The doctorInfo are saved real-time.
 pauseTime = [1,2]
