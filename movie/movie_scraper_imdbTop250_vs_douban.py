@@ -39,6 +39,10 @@ assert "豆瓣电影" in browser.title
 ##################################################
 #                   main loop                    #
 ##################################################
+# set working directory
+path = ""
+os.chdir(path)
+
 # declare lists to store data
 names = []
 years = []
@@ -85,7 +89,7 @@ for i in range(0,250):
     genre = pattern.findall(imdbMoviePage.text)
     genre = ", ".join(genre)
     genres.append(genre)
-    
+
     # scrape region
     details_info = imdbMoviePageHtml.select('div#titleDetails')[0]
     textBlocks = details_info.find_all('div', class_="txt-block")

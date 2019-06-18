@@ -16,6 +16,10 @@ import os
 ##################################################
 #                   main loop                    #
 ##################################################
+# set working directory
+path = ""
+os.chdir(path)
+
 # scrape 10 pages, 25 movies per page
 pages = [str(i) for i in range(0,10)]
 
