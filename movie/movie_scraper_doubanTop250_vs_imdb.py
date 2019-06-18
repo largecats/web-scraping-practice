@@ -11,7 +11,6 @@ import random
 from bs4 import BeautifulSoup
 from time import sleep
 from random import randint
-from warnings import warn
 import os
 
 ##################################################

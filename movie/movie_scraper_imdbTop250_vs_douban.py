@@ -9,14 +9,11 @@ import numpy as np
 import time
 import random
 from bs4 import BeautifulSoup
-from IPython.core.display import clear_output
 from time import sleep
 from random import randint
-from warnings import warn
 import os
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
 ##################################################
 #                 set up browser                 #
@@ -24,15 +21,16 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 chromedriver = "C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe"
 os.environ["webdriver.chrome.driver"] = chromedriver
 
-options=webdriver.ChromeOptions()  
-prefs={  
+options = webdriver.ChromeOptions()
+# do not load images  
+prefs = {  
      'profile.default_content_setting_values': {  
         'images': 2 
     }  
 }  
 options.add_experimental_option('prefs',prefs)  
   
-browser = webdriver.Chrome(chromedriver, chrome_options=options)
+browser = webdriver.Chrome(chromedriver, chrome_options = options)
 browser.set_page_load_timeout(30)
 
 browser.get('https://movie.douban.com')
@@ -45,15 +43,15 @@ assert "豆瓣电影" in browser.title
 names = []
 years = []
 genres = []
-imdb_ratings = []
-douban_ratings = []
+imdbRatings = []
+doubanRatings = []
 regions = []
 
 # make request
 response = requests.get("http://www.imdb.com/chart/top")
 
 # parse page
-page_html = BeautifulSoup(response.text, 'html.parser')
+pageHtml = BeautifulSoup(response.text, 'html.parser')
 
 for i in range(0,250):
 
@@ -61,35 +59,35 @@ for i in range(0,250):
     sleep(randint(3, 5))
 
     # scrape name
-    title_info = page_html.find_all('td', class_ = 'titleColumn')[i]
-    name = title_info.a.text
+    titleInfo = pageHtml.find_all('td', class_ = 'titleColumn')[i]
+    name = titleInfo.a.text
     names.append(name)
 
     # scrape year
-    year = title_info.span.text
+    year = titleInfo.span.text
     pattern = re.compile(r'(\d{4})', flags=re.DOTALL)
     year = (pattern.findall(year))[0]
     years.append(year)
 
     # enter imdb movie page
-    imdbMovieUrl = 'http://www.imdb.com' + title_info.a.get('href')
+    imdbMovieUrl = 'http://www.imdb.com' + titleInfo.a.get('href')
     imdbMoviePage = requests.get(imdbMovieUrl)
-    imdbMoviePage_html = BeautifulSoup(imdbMoviePage.text, 'html.parser')
+    imdbMoviePageHtml = BeautifulSoup(imdbMoviePage.text, 'html.parser')
     print(imdbMovieUrl)
 
-    # scrape rating
+    # scrape imdb rating
     pattern = re.compile(r'<span itemprop="ratingValue">(.+?)</span>', flags=re.DOTALL)
-    imdb_rating = float(pattern.findall(imdbMoviePage.text)[0])
-    imdb_ratings.append(imdb_rating)
+    imdbRating = float(pattern.findall(imdbMoviePage.text)[0])
+    imdbRatings.append(imdbRating)
 
     # scrape genre
     pattern = re.compile(r'<span class="itemprop" itemprop="genre">(.+?)</span>', flags=re.DOTALL)
     genre = pattern.findall(imdbMoviePage.text)
     genre = ", ".join(genre)
     genres.append(genre)
-
+    
     # scrape region
-    details_info = imdbMoviePage_html.select('div#titleDetails')[0]
+    details_info = imdbMoviePageHtml.select('div#titleDetails')[0]
     textBlocks = details_info.find_all('div', class_="txt-block")
     for t in textBlocks:
         if 'Country' in t.text:
@@ -107,34 +105,35 @@ for i in range(0,250):
     # enter in search box
     elem.send_keys(keywords)
     elem.send_keys(Keys.RETURN)
-    searchPage_html = BeautifulSoup(browser.page_source, "lxml")
-    containers = searchPage_html.find_all('div', class_ = 'item-root')
+    searchPageHtml = BeautifulSoup(browser.page_source, "lxml")
+    containers = searchPageHtml.find_all('div', class_ = 'item-root')
     j = 0
     while j < len(containers):
         first_container = containers[j]
-        title_info = first_container.find('div', class_="title").text
-        if name in title_info and year in title_info:
-            douban_rating = float(first_container.find("span", class_ = "rating_nums").text)
+        titleInfo = first_container.find('div', class_="title").text
+        # only scrape rating if result has matching title and year
+        if name in titleInfo and year in titleInfo:
+            doubanRating = float(first_container.find("span", class_ = "rating_nums").text)
             break
         else:
             j += 1
     if j == len(containers):
-        douban_rating = "NA"
-    douban_ratings.append(douban_rating)
+        doubanRating = "NA"
+    doubanRatings.append(doubanRating)
 
-    print(keywords, genre, region, imdb_rating, douban_rating)
+    print(keywords, genre, region, imdbRating, doubanRating)
 
-movie_info = pd.DataFrame({'movie': names,
+movieInfo = pd.DataFrame({'movie': names,
                               'year': list(map(int,years)),
                               'genre': genres,
-                              'imdb': imdb_ratings,
-                              'douban': douban_ratings,
+                              'imdb': imdbRatings,
+                              'douban': doubanRatings,
                               'region': regions},
                               columns = ['movie','year','genre','imdb','douban','region'])
-movie_info.index = movie_info.index + 1
+movieInfo.index = movieInfo.index + 1
 
-print(movie_info.info())
-print(movie_info.head(10))
+print(movieInfo.info())
+print(movieInfo.head(10))
 fileName = "IMDBTop250vsDouban.csv"
-movie_info.to_csv(fileName, sep=",", encoding = "utf-8", index=False)
+movieInfo.to_csv(fileName, sep=",", encoding = "utf-8", index=False)
 
