@@ -18,7 +18,7 @@ from selenium.webdriver.common.keys import Keys
 ##################################################
 #                 set up browser                 #
 ##################################################
-chromedriver = "C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe"
+chromedriver = "path-to\chromedriver.exe"
 os.environ["webdriver.chrome.driver"] = chromedriver
 
 options = webdriver.ChromeOptions()
@@ -91,13 +91,13 @@ for i in range(0,250):
     genres.append(genre)
 
     # scrape region
-    details_info = imdbMoviePageHtml.select('div#titleDetails')[0]
-    textBlocks = details_info.find_all('div', class_="txt-block")
+    detailsInfo = imdbMoviePageHtml.select('div#titleDetails')[0]
+    textBlocks = detailsInfo.find_all('div', class_="txt-block")
     for t in textBlocks:
         if 'Country' in t.text:
-            region_info = t
+            regionInfo = t
             break
-    region = region_info.a.text
+    region = regionInfo.a.text
     regions.append(region)
 
     # scrape douban rating
@@ -113,11 +113,11 @@ for i in range(0,250):
     containers = searchPageHtml.find_all('div', class_ = 'item-root')
     j = 0
     while j < len(containers):
-        first_container = containers[j]
-        titleInfo = first_container.find('div', class_="title").text
+        firstContainer = containers[j]
+        titleInfo = firstContainer.find('div', class_="title").text
         # only scrape rating if result has matching title and year
         if name in titleInfo and year in titleInfo:
-            doubanRating = float(first_container.find("span", class_ = "rating_nums").text)
+            doubanRating = float(firstContainer.find("span", class_ = "rating_nums").text)
             break
         else:
             j += 1

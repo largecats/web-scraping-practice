@@ -72,13 +72,13 @@ for page in pages:
         doubanRatings.append(doubanRating)
 
         # ender imdb movie page from douban
-        basic_info = doubanMoviePageHtml.find("div", attrs={"id":"info"})
+        basicInfo = doubanMoviePageHtml.find("div", attrs={"id":"info"})
         pattern = re.compile(r'IMDb链接: tt(\d{7})', flags=re.DOTALL)
-        imdb_id = pattern.findall(basic_info.text)[0]
-        imdb_url = "http://www.imdb.com/title/tt" + imdb_id + "/"
-        print(imdb_url)
+        imdbId = pattern.findall(basicInfo.text)[0]
+        imdbUrl = "http://www.imdb.com/title/tt" + imdbId + "/"
+        print(imdbUrl)
 
-        imdbMoviePage = requests.get(imdb_url)
+        imdbMoviePage = requests.get(imdbUrl)
         imdbMoviePageHtml = BeautifulSoup(imdbMoviePage.text, "lxml")
 
         # scrape genre
@@ -88,13 +88,13 @@ for page in pages:
         genres.append(genre)
 
         # scrape region
-        details_info = imdbMoviePageHtml.select('div#titleDetails')[0]
-        textBlocks = details_info.find_all('div', class_="txt-block")
+        detailsInfo = imdbMoviePageHtml.select('div#titleDetails')[0]
+        textBlocks = detailsInfo.find_all('div', class_="txt-block")
         for t in textBlocks:
             if 'Country' in t.text:
-                region_info = t
+                regionInfo = t
                 break
-        region = region_info.a.text
+        region = regionInfo.a.text
         regions.append(region)
 
         # scrape imdb rating
